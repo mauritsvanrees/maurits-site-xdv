@@ -1,6 +1,7 @@
 body {
     font: 16px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
+/* header height should be height of logo + 12 (half of the menu height) */
 #header {
     background-color: #ccc;
     height: 149px;
