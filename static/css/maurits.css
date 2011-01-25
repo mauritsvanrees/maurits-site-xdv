@@ -52,3 +52,31 @@ a {
 #footer p {
     margin-bottom: 0.5em;
 }
+.weblog-topics-label {
+    display: inline;
+}
+.weblog-entry .weblog-topics {
+    color: #76797C;
+    font-size: 85%;
+    text-transform: lowercase;
+}
+.weblog-topics ul {
+    display: inline;
+    padding-left: 0;
+}
+.weblog-topics ul li {
+    display: inline;
+    margin-left: 0px;
+}
+.weblog-entry .weblog-topics a {
+    color: #76797C;
+}
+.weblog-day-title {
+    border-bottom: 1px solid #8CACBB;
+    padding: 3px;
+}
+.weblog-read-more {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-left: 0.6em;
+}
