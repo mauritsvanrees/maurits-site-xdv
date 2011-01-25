@@ -1,21 +1,11 @@
 body {
     font: 16px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
-#portal-logo {
-    background: url("../images/logo.jpg") no-repeat scroll 0 0 transparent;
-    display: block;
-    margin-bottom: 2em;
+.header {
+    background-color: #ccc;
 }
-#portal-logo a {
-    border: 0 none;
-    cursor: pointer;
-    display: block;
-    height: 0 !important;
-    margin: 0;
-    overflow: hidden;
-    padding: 99px 0 0;
-    text-decoration: none;
-    width: 82px;
+#menu {
+    background-color: red;
 }
 .hiddenStructure {
     display: none;
