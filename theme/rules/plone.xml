@@ -11,7 +11,7 @@
     <replace content="/html/head" theme="/html/head/title" />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
     <replace content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
-    <copy content='//*[@id="portal-column-two"]' theme='//*[@id="sidebar"]' />
+    <copy css:content='.portlet' css:theme='#sidebar' />
     <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
 
 </rules>

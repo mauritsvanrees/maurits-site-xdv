@@ -92,3 +92,18 @@ pre {
     overflow-x: auto;
     font-size: 85%;
 }
+#sidebar {
+    background-color: #D3CEBC;
+}
+.portlet dt {
+    background-color: red;
+}
+#portlet-quills {
+    text-align: center;
+}
+.portletItem, .portletFooter {
+    padding: 0.5em;
+}
+dl#portlet-quills {
+    margin-bottom: 0;
+}
