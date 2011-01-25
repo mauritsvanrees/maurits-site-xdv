@@ -22,6 +22,7 @@ body {
 .documentActions li {
     display: inline;
     list-style: none outside none;
+    margin-left: 0;
 }
 img {
     border: medium none;
