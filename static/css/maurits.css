@@ -1,5 +1,5 @@
 body {
-    font: 90% Verdana,sans-serif;
+    font: 16px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
 #portal-logo {
     background: url("../images/logo.jpg") no-repeat scroll 0 0 transparent;
