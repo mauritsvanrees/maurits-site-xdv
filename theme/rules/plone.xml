@@ -2,7 +2,7 @@
        xmlns:css="http://namespaces.plone.org/xdv+css">
 
     <theme href="../templates/plone.html" />
-    <replace content="/html/head/title" theme="/html/head/title" />
+    <replace content="/html/head" theme="/html/head" />
     <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
     <replace content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
