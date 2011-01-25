@@ -1,6 +1,22 @@
 body {
     font: 90% Verdana,sans-serif;
 }
+#portal-logo {
+    background: url("../images/logo.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    margin-bottom: 2em;
+}
+#portal-logo a {
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 0 !important;
+    margin: 0;
+    overflow: hidden;
+    padding: 99px 0 0;
+    text-decoration: none;
+    width: 82px;
+}
 .hiddenStructure {
     display: none;
 }
@@ -30,4 +46,8 @@ img {
 }
 a {
     color: #463229;
+}
+#portal-searchbox {
+    clear: right;
+    float: right;
 }
