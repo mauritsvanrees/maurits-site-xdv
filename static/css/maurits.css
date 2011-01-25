@@ -39,7 +39,7 @@ img {
     border-left: 1px solid #463229;
     display: inline;
     padding-left: 0.5em;
-    padding-right: 0.5em;
+    margin-left: 0.5em;
 }
 #portal-siteactions li a {
     text-decoration: none;
