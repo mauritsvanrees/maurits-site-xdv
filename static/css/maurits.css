@@ -80,3 +80,10 @@ a {
     font-weight: bold;
     padding-left: 0.6em;
 }
+pre {
+    background: black;
+    color: white;
+    padding-left: 0.6em;
+    overflow-x: auto;
+    font-size: 85%;
+}
