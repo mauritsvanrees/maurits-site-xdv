@@ -2,7 +2,12 @@
        xmlns:css="http://namespaces.plone.org/xdv+css">
 
     <theme href="../templates/plone.html" />
-    <replace content="/html/head" theme="/html/head" />
+    <!-- Drop all styles; maybe some links as well, but I might want to remove javascript as well.
+         Take it one step at a time. -->
+    <drop content="/html/head/style" />
+    <!-- Put the rest of the Plone head in the theme title.
+         This way everything after the theme title stays safe. -->
+    <replace content="/html/head" theme="/html/head/title" />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu"]' />
     <replace content='//*[@id="portal-column-content"]' theme='//*[@id="content"]' />
     <copy content='//*[@id="portal-column-two"]' theme='//*[@id="sidebar"]' />
