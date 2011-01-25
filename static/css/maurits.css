@@ -51,3 +51,7 @@ a {
     clear: right;
     float: right;
 }
+#footer {
+    color: #76797C;
+    font-size: 85%;
+}
