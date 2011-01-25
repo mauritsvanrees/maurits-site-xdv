@@ -38,6 +38,10 @@ img {
 #portal-siteactions li a {
     text-decoration: none;
 }
+.currentItem {
+    border: 2px solid #FFA500;
+    padding: 1px;
+}
 a {
     color: #463229;
 }
