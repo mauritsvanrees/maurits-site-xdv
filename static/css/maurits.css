@@ -1,9 +1,9 @@
 body {
     font: 16px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
-.header {
+#header {
     background-color: #ccc;
-    display: block;
+    height: 111px;
 }
 #menu {
     background-color: red;
