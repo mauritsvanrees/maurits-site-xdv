@@ -5,6 +5,7 @@
     <!-- Drop all styles; maybe some links as well, but I might want to remove javascript as well.
          Take it one step at a time. -->
     <drop content="/html/head/style" />
+    <drop content="/html/head/script" />
     <!-- Put the rest of the Plone head in the theme title.
          This way everything after the theme title stays safe. -->
     <replace content="/html/head" theme="/html/head/title" />
