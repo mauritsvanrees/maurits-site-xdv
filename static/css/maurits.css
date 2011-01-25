@@ -3,6 +3,7 @@ body {
 }
 .header {
     background-color: #ccc;
+    display: block;
 }
 #menu {
     background-color: red;
