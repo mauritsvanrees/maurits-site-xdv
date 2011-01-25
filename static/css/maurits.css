@@ -45,6 +45,10 @@ a {
     float: right;
 }
 #footer {
-    color: #76797C;
+    background-color: #ccc;
     font-size: 85%;
+    height: 120px;
+}
+#footer p {
+    margin-bottom: 0.5em;
 }
