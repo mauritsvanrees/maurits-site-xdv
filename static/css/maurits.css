@@ -1,0 +1,33 @@
+body {
+    font: 90% Verdana,sans-serif;
+}
+.hiddenStructure {
+    display: none;
+}
+.documentActions {
+    display: inline;
+}
+.documentActions {
+    float: right;
+    margin: 0.4em 0 0 0.5em;
+    padding: 0;
+}
+.documentActions li {
+    display: inline;
+    list-style: none outside none;
+}
+img {
+    border: medium none;
+}
+#portal-siteactions li, #portal-globalnav li {
+    border-left: 1px solid #463229;
+    display: inline;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#portal-siteactions li a {
+    text-decoration: none;
+}
+a {
+    color: #463229;
+}
