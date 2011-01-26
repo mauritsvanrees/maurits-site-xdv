@@ -1,0 +1,10 @@
+* Google Analytics
+
+* Check if livesearch is easy to get working, without loading lots of javascript.
+
+* See if something like fanstatic can be used to serve versioned resources.
+
+* deploy.ini versus development.ini
+
+* Deploy at new.maurits.vanrees.org for testing and seeing if it plays
+  nice with Apache.
