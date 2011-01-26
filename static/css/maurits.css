@@ -107,3 +107,9 @@ pre {
 dl#portlet-quills {
     margin-bottom: 0;
 }
+.fieldRequired, .formHelp{
+    font-size: 85%;
+}
+.field {
+    margin-bottom: 0.5em;
+}
