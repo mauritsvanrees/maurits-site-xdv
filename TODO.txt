@@ -2,7 +2,11 @@
 
 * Check if livesearch is easy to get working, without loading lots of javascript.
 
-* See if something like fanstatic can be used to serve versioned resources.
+# See if something like fanstatic can be used to serve versioned
+  resources.  Yes, looks fine.  [DONE]
+
+* Try setting up jquery.pyproxy with a minified version, just to see
+  how that works.
 
 * deploy.ini versus development.ini
 
