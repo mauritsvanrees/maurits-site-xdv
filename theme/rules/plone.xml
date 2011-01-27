@@ -8,7 +8,7 @@
     <drop content="/html/head/script" />
     <!-- Put the rest of the Plone head in the theme title.
          This way everything after the theme title stays safe. -->
-    <replace content="/html/head" theme="/html/head/title" />
+    <replace content="/html/head" theme="/html/head" />
     <copy css:content='#portal-globalnav' css:theme='#menu' />
     <replace css:content='#portal-column-content' css:theme='#content' />
     <copy css:content='.portlet' css:theme='#sidebar' />
