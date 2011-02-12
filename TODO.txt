@@ -1,4 +1,2 @@
-* deploy.ini versus development.ini
-
 * Deploy at new.maurits.vanrees.org for testing and seeing if it plays
   nice with Apache.
