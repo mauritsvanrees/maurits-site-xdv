@@ -2,4 +2,4 @@
 bin
 develop-eggs
 parts
-src
+*.egg-info

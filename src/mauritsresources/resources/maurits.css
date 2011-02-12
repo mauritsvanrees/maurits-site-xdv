@@ -1,0 +1,123 @@
+body {
+    font: 16px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+/* header height should be height of logo + 12 (half of the menu height) */
+#header {
+    background-color: #ccc;
+    height: 149px;
+}
+#menu {
+    background-color: red;
+}
+.hiddenStructure {
+    display: none;
+}
+.documentActions {
+    display: inline;
+}
+.documentActions {
+    float: right;
+    margin: 0.4em 0 0 0.5em;
+    padding: 0;
+}
+.documentActions li {
+    display: inline;
+    list-style: none outside none;
+    margin-left: 0;
+}
+img {
+    border: medium none;
+}
+#portal-siteactions li, #portal-globalnav li {
+    border-left: 1px solid #463229;
+    display: inline;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+#portal-siteactions li a {
+    text-decoration: none;
+}
+.currentItem {
+    border: 2px solid #FFA500;
+    padding: 1px;
+}
+a {
+    color: #463229;
+}
+#portal-searchbox {
+    clear: right;
+    float: right;
+}
+#footer {
+    background-color: #ccc;
+    font-size: 85%;
+    height: 80px;
+}
+#footer p {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.weblog-topics-label {
+    display: inline;
+}
+.weblog-entry .weblog-topics {
+    color: #76797C;
+    font-size: 85%;
+    text-transform: lowercase;
+}
+.weblog-topics ul {
+    display: inline;
+    padding-left: 0;
+}
+.weblog-topics ul li {
+    display: inline;
+    margin-left: 0px;
+}
+.weblog-entry .weblog-topics a {
+    color: #76797C;
+}
+.weblog-day-title {
+    border-bottom: 1px solid #8CACBB;
+    padding: 3px;
+}
+.weblog-read-more {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-left: 0.6em;
+}
+pre {
+    background: black;
+    color: white;
+    padding-left: 0.6em;
+    overflow-x: auto;
+    font-size: 85%;
+}
+#sidebar {
+    background-color: #D3CEBC;
+}
+.portlet dt {
+    background-color: red;
+}
+#portlet-quills {
+    text-align: center;
+}
+.portletItem, .portletFooter {
+    padding: 0.5em;
+}
+dl#portlet-quills {
+    margin-bottom: 0;
+}
+.fieldRequired, .formHelp{
+    font-size: 85%;
+}
+.field {
+    margin-bottom: 0.5em;
+}
+.LSResult {
+    background-color: #ccc;
+    border: 2px solid red;
+}
+li.LSRow {
+    list-style: none outside none;
+}
