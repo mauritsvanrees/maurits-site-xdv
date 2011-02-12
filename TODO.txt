@@ -1,4 +1,2 @@
-* Move repository to vanrees.org (or github or something).
-
 * Deploy at new.maurits.vanrees.org for testing and seeing if it plays
   nice with Apache.
