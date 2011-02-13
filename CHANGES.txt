@@ -1,0 +1,8 @@
+Changelog for maurits-site-xdv
+==============================
+
+1.0 (unreleased)
+----------------
+
+- Initial release.
+  [maurits]
