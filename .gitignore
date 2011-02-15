@@ -3,3 +3,4 @@ bin
 develop-eggs
 parts
 *.egg-info
+src/fanstatic
