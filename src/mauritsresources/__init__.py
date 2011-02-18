@@ -9,9 +9,9 @@ live_search = Resource(maurits_library, 'livesearch.js')
 
 # Register our css files:
 reset_css = Resource(maurits_library, 'reset.css')
-text_css = Resource(maurits_library, 'text.css')
-ninesixty = Resource(maurits_library, '960_simple.css')
-maurits_css = Resource(maurits_library, 'maurits.css')
+text_css = Resource(maurits_library, 'text.css', depends=[reset_css])
+ninesixty = Resource(maurits_library, '960_simple.css', depends=[text_css])
+maurits_css = Resource(maurits_library, 'maurits.css', depends=[ninesixty])
 
 
 def need_all():
