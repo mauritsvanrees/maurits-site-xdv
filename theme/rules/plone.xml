@@ -1,5 +1,5 @@
-<rules xmlns="http://namespaces.plone.org/xdv"
-       xmlns:css="http://namespaces.plone.org/xdv+css">
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css">
 
     <theme href="../templates/plone.html" />
     <!-- Drop all styles; maybe some links as well, but I might want to remove javascript as well.
@@ -8,9 +8,9 @@
     <drop content="/html/head/script" />
     <drop content="/html/head/link" />
     <append content="/html/head" theme="/html/head" />
-    <copy css:content='#portal-globalnav' css:theme='#menu' />
+    <replace css:content='#portal-globalnav' css:theme-children='#menu' />
     <replace css:content='#portal-column-content' css:theme='#content' />
-    <copy css:content='.portlet' css:theme='#sidebar' />
-    <copy css:content='#portal-searchbox' css:theme='#search' />
+    <replace css:content='.portlet' css:theme-children='#sidebar' />
+    <replace css:content='#portal-searchbox' css:theme-children='#search' />
 
 </rules>
