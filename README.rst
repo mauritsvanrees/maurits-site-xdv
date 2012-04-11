@@ -38,7 +38,7 @@ So, what is in here?
   package, which is bundled together with the rest of the code as it
   is very much tied to the rest.
 
-- The diazo_ part is handled by `diazo[wsgi]`_.  You define an html
+- The diazo_ part is handled by ``diazo[wsgi]``.  You define an html
   theme and an xslt rules file.  diazo then uses xslt to grab the html
   of some web server (Plone in my case) and stuffs it in the html
   theme.  This is a handy way to let themes be created by an html and
@@ -65,4 +65,4 @@ Ideas to improve this setup are welcome.
 Maurits van Rees
 
 .. _fanstatic: http://fanstatic.org
-.. _`diazo[wsgi]`: http://diazo.org/
+.. _`diazo`: http://diazo.org/
