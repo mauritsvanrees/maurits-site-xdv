@@ -5,5 +5,5 @@ develop-eggs
 parts
 *.egg-info
 src/fanstatic
-src/dv.xdvserver
+src/mr.developer
 src/diazo
