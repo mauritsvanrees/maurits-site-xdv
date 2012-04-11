@@ -25,7 +25,7 @@ So, what is in here?
 
   - mauritsresources
 
-  - xdv
+  - diazo
 
   - plone
 
@@ -38,8 +38,8 @@ So, what is in here?
   package, which is bundled together with the rest of the code as it
   is very much tied to the rest.
 
-- The xdv_ part is handled by `dv.xdvserver`_.  You define an html
-  theme and an xslt rules file.  xdv then uses xslt to grab the html
+- The diazo_ part is handled by `diazo[wsgi]`_.  You define an html
+  theme and an xslt rules file.  diazo then uses xslt to grab the html
   of some web server (Plone in my case) and stuffs it in the html
   theme.  This is a handy way to let themes be created by an html and
   css wizard who has no clue of what happens in the backend that the
@@ -65,5 +65,4 @@ Ideas to improve this setup are welcome.
 Maurits van Rees
 
 .. _fanstatic: http://fanstatic.org
-.. _xdv: http://pypi.python.org/pypi/xdv
-.. _`dv.xdvserver`: http://pypi.python.org/pypi/dv.xdvserver
+.. _`diazo[wsgi]`: http://diazo.org/
