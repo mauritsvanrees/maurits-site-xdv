@@ -4,7 +4,8 @@ Changelog for maurits-site-xdv
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- A few new package versions.
+  [maurits]
 
 
 1.0 (2011-02-13)
