@@ -1,0 +1,8 @@
+include *.cfg
+include *.ini
+include *.py
+include *.txt
+include devel.ini
+recursive-include src/mauritsresources *
+recursive-include static/images *
+recursive-include theme *
