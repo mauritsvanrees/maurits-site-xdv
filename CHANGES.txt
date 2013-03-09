@@ -1,7 +1,7 @@
 Changelog for maurits-site-xdv
 ==============================
 
-1.1 (unreleased)
+1.1 (2013-03-09)
 ----------------
 
 - A few new package versions.
