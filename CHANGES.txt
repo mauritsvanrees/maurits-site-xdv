@@ -4,7 +4,7 @@ Changelog for maurits-site-xdv
 1.4.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- No longer point to Prettig Personeel in footer.  [maurits]
 
 
 1.4 (2017-05-29)
