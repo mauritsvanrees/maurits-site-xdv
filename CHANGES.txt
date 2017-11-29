@@ -1,6 +1,12 @@
 Changelog for maurits-site-xdv
 ==============================
 
+1.4.3 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 1.4.2 (2017-11-29)
 ------------------
 
