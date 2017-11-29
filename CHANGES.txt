@@ -1,7 +1,7 @@
 Changelog for maurits-site-xdv
 ==============================
 
-1.4.2 (unreleased)
+1.4.2 (2017-11-29)
 ------------------
 
 - Added https.ini for serving https://maurits.vanrees.org.  [maurits]
